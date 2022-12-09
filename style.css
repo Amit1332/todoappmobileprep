@@ -83,6 +83,16 @@ a{
     color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
 .akbaa{
     height: 100%;
     width: 100%;
@@ -150,6 +160,106 @@ font-size: 20px;
 
 }
 
+
+
+
+
+@media (max-width:700px ) {
+    .top{
+    padding-left: 20px;
+
+    }
+    .top2{
+            justify-content: center;
+            padding: 0;
+    }
+    .top2 h3{
+        display: none;
+    }
+   
+    .top3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding:0px;
+        /* flex-wrap: wrap; */
+    }
+    
+    .tone{
+        height: 300px;
+        margin: 15px;
+    box-shadow: 5px 5px 5px rgb(231, 230, 230);
+        width: 80%;
+        background-color: white;
+    }
+    h1{
+        font-size: 22px;
+    }
+
+    .box{
+        height: 200px;
+        width: 95%;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .box input{
+        width: 85%;
+        height: 25px;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    
+ 
+    .boxb button{
+        margin-left: 100px;
+        padding: 6px 20px;
+        border-radius: 5px;
+    
+    }
+  
+}
+
+
+@media (max-width:400px ) {
+    
+ 
+    .boxb button{
+        margin-left: 150px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    
+    }
+  
+}
+@media (max-width:550px ) {
+    
+ 
+    .boxb button{
+        margin-left: 150px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    
+    }
+  
+}
+
+@media (max-width:700px ) { 
+ 
+    .boxb button{
+        margin-left: 50%;
+        padding: 10px 20px;
+        border-radius: 5px;
+    
+    }
+  
+}
+
+
+
 .top4{
     align-items: center;
     justify-content: center;
@@ -171,3 +281,63 @@ font-size: 20px;
 .ccc .ri-arrow-left-circle-fill{
     color: rgb(113, 109, 109);
 }
+
+
+@media (max-width:700px ) {
+    .top{
+    padding-left: 20px;
+
+    }
+    .top2{
+            justify-content: center;
+            padding: 0;
+    }
+    .top2 h3{
+        display: none;
+    }
+   
+    .top3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding:0px;
+        /* flex-wrap: wrap; */
+    }
+    
+    .tone{
+        height: 300px;
+        margin: 15px;
+    box-shadow: 5px 5px 5px rgb(231, 230, 230);
+        width: 80%;
+        background-color: white;
+    }
+    h1{
+        font-size: 22px;
+    }
+
+    .box{
+        height: 200px;
+        width: 95%;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .ccc{
+      width: 50%;
+      justify-content: space-between;
+    }
+
+    #ac{
+        display: block;
+        font-size: 14px;
+    }
+
+   
+    
+ 
+   
+}
+
