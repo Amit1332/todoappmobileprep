@@ -171,3 +171,40 @@ font-size: 20px;
 .ccc .ri-arrow-left-circle-fill{
     color: rgb(113, 109, 109);
 }
+@media only screen and (max-width: 600px){
+    #add{
+        display: none;
+    }
+    .top2{
+        justify-content: center;
+        padding-right: 80px;
+    }
+    .ccc{
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #add{
+        display: none;
+    }
+    .top2{
+        justify-content: center;
+        padding-right: 40px;
+    }
+    .ccc{
+        justify-content: flex-start;
+    }
+}
+@media only screen and (max-width: 400px){
+    #add{
+        display: none;
+    }
+    .top2{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .ccc{
+        justify-content: flex-start;
+    }
+}
